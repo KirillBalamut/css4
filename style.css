@@ -62,16 +62,13 @@ button {
   display: flex;
   color: #F25822;
   font-size: 10px;
- 
 }
 
-.main{
-  margin-bottom: 200px;
-}
+
 .mainContent{
   display: flex;
-  justify-content: space-between
-
+  justify-content: space-between;
+  margin-bottom: 200px;
 }
 
 .mainContent_leftSide{
@@ -122,13 +119,75 @@ button {
   color: #AAAAAA;
 }
 
-
-.footer{
-  margin-bottom: 100px;
-}
-
 .logos{
   display: flex;
   justify-self: space-between;
   gap: 48px;
+  margin-bottom: 100px;
+}
+
+.cardList{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 61px;
+}
+.cardFeatures{
+  padding: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px ;
+  align-items: first baseline;
+  text-align: left;
+}
+
+.cardServes{
+  padding: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px ;
+  align-items: center;
+  text-align: center;
+}
+
+.cardBig{
+  grid-column: span 3;
+  grid-row: span 3;
+  padding: 48;
+  align-items: center;
+  text-align: center;
+  width: 1174px;
+
+}
+
+
+.cardServes,.cardFeatures h3{
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
+  color: black;
+}
+
+.cardFeatures,.cardServes p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  color: rgba(102, 102, 102, 1);
+}
+
+.cardBig h2{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 140%;
+  padding: 24px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.cardBig p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #666666;
 }
