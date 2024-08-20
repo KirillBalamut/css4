@@ -32,11 +32,12 @@ button {
 .container {
   max-width: 1174px;
   margin: 0 auto;
+  background: rgb(250, 250, 250);
 }
 
 .header{
-  padding: 40px 0;
-  margin-bottom: 84px;
+  padding: 37px 0;
+  margin-bottom: 87px;
 }
 
 .navigationButton{
@@ -148,6 +149,7 @@ button {
   gap: 16px ;
   align-items: center;
   text-align: center;
+  background: #fff;
 }
 
 .cardBig{
@@ -185,9 +187,28 @@ button {
   color: black;
 }
 
-.cardBig p{
-  font-size: 16px;
+.cardFeatures_desc{
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+
+.cardBig-desc{
+  text-align: center;
   font-weight: 400;
-  line-height: 140%;
-  color: #666666;
+  font-size: 16px;
+  color: #888888;
+  width: 740px;
+  height: 44px;
+  margin: 0 auto;
+}
+
+.btn_desc{
+font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+background: none;
 }
